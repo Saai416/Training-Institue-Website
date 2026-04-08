@@ -1,0 +1,202 @@
+.results-page {
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.results-header {
+  background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.9)), url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop') center/cover;
+  padding: 120px 20px 100px;
+  text-align: center;
+  color: white;
+}
+
+.results-header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.results-header p {
+  font-size: 20px;
+  color: #e2e8f0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.results-container {
+  max-width: 1200px;
+  margin: -60px auto 0;
+  padding: 0 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.hall-of-fame {
+  background: white;
+  border-radius: 24px;
+  padding: 50px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px;
+}
+
+.hall-of-fame h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.achievers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.achiever-card {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achiever-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(12, 114, 186, 0.15);
+  border-color: #0c72ba;
+}
+
+.achiever-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0c72ba, #00d2ff);
+  color: white;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-weight: bold;
+}
+
+.achiever-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.rank-badge {
+  background: #fef08a;
+  color: #854d0e;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.score-text {
+  font-weight: 600;
+  color: #059669;
+}
+
+/* Counters section */
+.results-counters {
+  text-align: center;
+}
+
+.results-counters h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.counters-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.glass-box {
+  background: linear-gradient(135deg, #ffffff, #f1f5f9);
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.glass-box:hover {
+  background: white;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.counter-number {
+  font-size: 56px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #0c72ba, #00d2ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.counter-label {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.results-cta {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.pulse-btn {
+  padding: 18px 40px;
+  font-size: 20px;
+  border-radius: 40px;
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.4);
+  animation: gentlePulse 2s infinite;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pulse-btn:hover {
+  background: #0284c7;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(14, 165, 233, 0.6);
+}
+
+@keyframes gentlePulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .hall-of-fame {
+    padding: 30px 20px;
+  }
+}
