@@ -15,10 +15,10 @@ const Footer = () => {
               </div>
               <p>Top-tier education for competitive exams and tech placements. Empowering students with the skills and knowledge to succeed globally.</p>
               <div className="social-links">
-                <a href="#!" className="social-icon">📘</a>
-                <a href="#!" className="social-icon">🐦</a>
-                <a href="#!" className="social-icon">📸</a>
-                <a href="#!" className="social-icon">💼</a>
+                <a href="/" className="social-icon">📘</a>
+                <a href="/" className="social-icon">🐦</a>
+                <a href="/" className="social-icon">📸</a>
+                <a href="/" className="social-icon">💼</a>
               </div>
             </div>
 
@@ -58,9 +58,9 @@ const Footer = () => {
         <div className="container footer-bottom-inner">
           <p>&copy; {new Date().getFullYear()} Excel Institute. All rights reserved.</p>
           <div className="footer-legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Refund Policy</a>
+            <a href="/">Privacy Policy</a>
+            <a href="/">Terms & Conditions</a>
+            <a href="/">Refund Policy</a>
           </div>
         </div>
       </div>
