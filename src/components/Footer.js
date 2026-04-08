@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="footer-contact">
               <h3>Reach Us</h3>
               <p><strong>Head Office:</strong> 123 Excel Tower, Knowledge Park, Chennai , Tamil Nadu, India 600001</p>
-              <p><strong>Phone:</strong> +91 98765 43210</p>
+              <p><strong>Phone:</strong> +91 00000 00000</p>
               <p><strong>Email:</strong> [EMAIL_ADDRESS]</p>
             </div>
           </div>

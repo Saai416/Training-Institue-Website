@@ -15,7 +15,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const text = `Hi Excel Institute, I am ${formData.name}. I am interested in exploring the ${formData.course} course. My contact number is ${formData.phone}. Please connect with me!`;
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/910000000000?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -86,7 +86,7 @@ const Contact = () => {
               </div>
               <div className="info-item">
                 <span className="icon">📞</span>
-                <p>+91 98765 43210 (Toll Free)</p>
+                <p>+91 00000 00000 (Toll Free)</p>
               </div>
             </div>
 

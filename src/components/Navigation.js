@@ -37,7 +37,7 @@ const Navigation = () => {
           <span>⏰ Mon-Sat: 8:00 AM - 8:00 PM</span>
         </div>
         <div className="contact-item">
-          <span>📞 +91 98765 43210</span>
+          <span>📞 +91 00000 00000</span>
         </div>
       </div>
     </header>

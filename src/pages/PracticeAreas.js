@@ -68,7 +68,7 @@ const PracticeAreas = () => {
       <div className="courses-footer">
         <h2>Not sure which course is right for you?</h2>
         <p>Talk to our expert counselors today and get personalized guidance.</p>
-        <a href="https://wa.me/919876543210" className="btn btn-primary primary-cta" target="_blank" rel="noreferrer">Request Career Counseling</a>
+        <a href="https://wa.me/910000000000" className="btn btn-primary primary-cta" target="_blank" rel="noreferrer">Request Career Counseling</a>
       </div>
     </div>
   );
