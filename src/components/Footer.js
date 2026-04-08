@@ -15,10 +15,10 @@ const Footer = () => {
               </div>
               <p>Top-tier education for competitive exams and tech placements. Empowering students with the skills and knowledge to succeed globally.</p>
               <div className="social-links">
-                <a href="#" className="social-icon">📘</a>
-                <a href="#" className="social-icon">🐦</a>
-                <a href="#" className="social-icon">📸</a>
-                <a href="#" className="social-icon">💼</a>
+                <a href="#!" className="social-icon">📘</a>
+                <a href="#!" className="social-icon">🐦</a>
+                <a href="#!" className="social-icon">📸</a>
+                <a href="#!" className="social-icon">💼</a>
               </div>
             </div>
 
