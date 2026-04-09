@@ -13,12 +13,12 @@ const Navigation = () => {
           ACHIEVERS ACADEMY
         </Link>
         <div className={`nav-menu ${menuOpen ? 'active' : ''}`}>
-          <Link to="/" className="nav-link">Home</Link>
-          <Link to="/courses" className="nav-link">Courses</Link>
-          <Link to="/results" className="nav-link">Results</Link>
-          <Link to="/faculty" className="nav-link">Faculty</Link>
-          <Link to="/about" className="nav-link">About</Link>
-          <Link to="/contact" className="nav-btn demo-btn">Book Free Demo</Link>
+          <Link to="/" className="nav-link" onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link to="/courses" className="nav-link" onClick={() => setMenuOpen(false)}>Courses</Link>
+          <Link to="/results" className="nav-link" onClick={() => setMenuOpen(false)}>Results</Link>
+          <Link to="/faculty" className="nav-link" onClick={() => setMenuOpen(false)}>Faculty</Link>
+          <Link to="/about" className="nav-link" onClick={() => setMenuOpen(false)}>About</Link>
+          <Link to="/contact" className="nav-btn demo-btn" onClick={() => setMenuOpen(false)}>Book Free Demo</Link>
         </div>
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
           <span></span>
