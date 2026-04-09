@@ -96,7 +96,7 @@ const Home = () => {
             <div className="badge">🏆 #1 Excellence Award</div>
             <div className="badge">⭐ 4.9/5 Student Rating</div>
             <div className="badge">🎓 ISO Certified Institute</div>
-            <div className="badge">💼 100% Placement Support</div>
+            <div className="badge">💼 100% Educational Support</div>
           </div>
         </div>
       </section>
