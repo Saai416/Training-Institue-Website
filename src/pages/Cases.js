@@ -3,17 +3,17 @@ import '../styles/Cases.css';
 
 const Cases = () => {
   const highlightResults = [
-    { rank: 'AIR 1', exam: 'NEET 2023', name: 'Aarav Sharma', score: '720/720' },
-    { rank: 'AIR 5', exam: 'JEE Adv 2023', name: 'Rohan Gupta', score: '342/360' },
-    { rank: '100%ile', exam: 'JEE Main 2024', name: 'Sanya Verma', score: '300/300' },
-    { rank: 'Placed', exam: 'Google', name: 'Karan Singh', score: '50 LPA' }
+    { rank: 'School Rank 1', exam: 'CBSE 10th', name: 'Aarav Sharma', score: '98.5%' },
+    { rank: 'District Top', exam: 'State Board 12th', name: 'Rohan Gupta', score: '585/600' },
+    { rank: 'A1 Grade', exam: 'CBSE Maths', name: 'Sanya Verma', score: '100/100' },
+    { rank: 'Full Marks', exam: 'Class 8 Science', name: 'Karan Singh', score: 'A+' }
   ];
 
   return (
     <div className="results-page">
       <div className="results-header">
-        <h1>Proven Excellence. Unmatched Results.</h1>
-        <p>Year after year, Excel Institute students dominate top entrance exams and secure premium placements.</p>
+        <h1>Consistent Top Performers.</h1>
+        <p>Year after year, Achievers Academy students score top marks and gain subject mastery in CBSE and State Board exams.</p>
       </div>
 
       <div className="results-container">
@@ -48,8 +48,8 @@ const Cases = () => {
       </div>
 
       <div className="results-cta">
-        <h2>Ready to be our next success story?</h2>
-        <button className="btn btn-primary pulse-btn">Join Excel Institute</button>
+        <h2>Ready to boost your child's academic performance?</h2>
+        <a href="https://wa.me/0000000000?text=Hi%2C%20I%20saw%20Achievers%20Academy%20online.%20I%20want%20to%20know%20about%20classes." className="btn btn-primary pulse-btn">Join Achievers Academy</a>
       </div>
     </div>
   );

@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="footer-grid">
             <div className="footer-info">
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
-                <img src="/logo.png" alt="Excel Institute Logo" style={{ width: '50px', height: '50px', marginRight: '15px' }} />
-                <h2 style={{ marginBottom: 0 }}>EXCEL INSTITUTE</h2>
+                <img src="/logo.png" alt="Achievers Academy Logo" style={{ width: '50px', height: '50px', marginRight: '15px' }} />
+                <h2 style={{ marginBottom: 0 }}>ACHIEVERS ACADEMY</h2>
               </div>
-              <p>Top-tier education for competitive exams and tech placements. Empowering students with the skills and knowledge to succeed globally.</p>
+              <p>Trusted tuition centre in Chennai for CBSE and State Board. If you are looking for the best 'CBSE tuition near me', your search ends here. We empower students with concept clarity and individual attention to boost exam results.</p>
               <div className="social-links">
                 <a href="/" className="social-icon">📘</a>
                 <a href="/" className="social-icon">🐦</a>
@@ -34,21 +34,21 @@ const Footer = () => {
             </div>
 
             <div className="footer-courses">
-              <h3>Popular Courses</h3>
+              <h3>Popular Tuition Classes</h3>
               <ul>
-                <li><Link to="/courses">NEET Preparation</Link></li>
-                <li><Link to="/courses">JEE Mains & Advanced</Link></li>
-                <li><Link to="/courses">MERN Stack Bootcamp</Link></li>
-                <li><Link to="/courses">Data Science Masterclass</Link></li>
-                <li><Link to="/courses">Class 9-10 Foundation</Link></li>
+                <li><Link to="/courses">LKG to 5th Foundation</Link></li>
+                <li><Link to="/courses">6th to 8th Concept Building</Link></li>
+                <li><Link to="/courses">9th & 10th Board Prep</Link></li>
+                <li><Link to="/courses">11th & 12th focused Tuitions</Link></li>
+                <li><Link to="/courses">CBSE & State Board</Link></li>
               </ul>
             </div>
 
             <div className="footer-contact">
               <h3>Reach Us</h3>
-              <p><strong>Head Office:</strong> 123 Excel Tower, Knowledge Park, Chennai , Tamil Nadu, India 600001</p>
+              <p><strong>Location:</strong> No 11, Murugappa St, above Saravana Store, Muthiyal Reddy Nagar, Vanuvampet, Madipakkam, Chennai, Tamil Nadu 600091</p>
               <p><strong>Phone:</strong> +91 00000 00000</p>
-              <p><strong>Email:</strong> [EMAIL_ADDRESS]</p>
+              <p><strong>Email:</strong> info@achieversacademy.in</p>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <p>&copy; {new Date().getFullYear()} Excel Institute. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Achievers Academy. All rights reserved.</p>
           <div className="footer-legal">
             <a href="/">Privacy Policy</a>
             <a href="/">Terms & Conditions</a>

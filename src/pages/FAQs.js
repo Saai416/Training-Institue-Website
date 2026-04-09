@@ -6,36 +6,36 @@ const FAQs = () => {
 
   const faqs = [
     {
-      question: 'What is your consultation fee?',
-      answer: 'Our initial consultation is completely free. We offer a comprehensive assessment of your case without any obligation.'
+      question: 'What classes do you offer tuitions for?',
+      answer: 'We offer tuitions for LKG to 12th standard, covering both CBSE and State Board curriculum.'
     },
     {
-      question: 'How long have you been practicing law?',
-      answer: 'Our firm has been serving clients since 1991, with over 120 combined years of legal experience across all practice areas.'
+      question: 'What are your batch sizes?',
+      answer: 'We maintain small batch sizes to ensure individual attention and concept clarity for every student.'
     },
     {
-      question: 'Do you handle cases outside of Ontario?',
-      answer: 'Yes, we have experience with cases across Canada and can provide referrals to trusted partners in other jurisdictions.'
+      question: 'Do you provide trial classes?',
+      answer: 'Yes, we offer free trial/demo classes. Please contact us on WhatsApp to schedule yours.'
     },
     {
-      question: 'What payment options do you offer?',
-      answer: 'We offer flexible fee arrangements including hourly rates, flat fees, and contingency fees depending on the case type.'
+      question: 'What subjects do you specialize in?',
+      answer: 'We specialize in Mathematics, Science (Physics, Chemistry, Biology), English, Hindi, and Social Studies.'
     },
     {
-      question: 'How often will I hear from my lawyer?',
-      answer: 'We believe in regular communication. You\'ll receive updates on your case and a lawyer will personally answer your calls and emails.'
+      question: 'Where are you located?',
+      answer: 'We are conveniently located at No 11, Murugappa St, Muthiyal Reddy Nagar, Vanuvampet, Madipakkam, Chennai – making it easy for nearby students to attend safely.'
     },
     {
-      question: 'What areas of law do you specialize in?',
-      answer: 'We specialize in Corporate Law, Real Estate Law, Personal Injury, Criminal Defense, Immigration Law, and Employment Law.'
+      question: 'How do you track student progress?',
+      answer: 'We conduct regular weekly assessments and provide monthly progress reports to parents to ensure academic improvement.'
     },
     {
-      question: 'Can you represent me in court?',
-      answer: 'Yes, our experienced attorneys have extensive courtroom experience and are fully qualified to represent you in all proceedings.'
+      question: 'Are your teachers qualified?',
+      answer: 'Absolutely. All our teachers are highly experienced and specialize in their respective subjects to deliver top-notch education.'
     },
     {
-      question: 'What should I bring to my consultation?',
-      answer: 'Please bring any relevant documents, contracts, correspondence, or evidence related to your case for review.'
+      question: 'What are your timings?',
+      answer: 'We operate mostly in the evenings from 4:00 PM to 9:00 PM to accommodate regular school hours.'
     }
   ];
 
@@ -57,7 +57,7 @@ const FAQs = () => {
           <div className="faqs-list">
             {faqs.map((faq, index) => (
               <div key={index} className={`faq-item ${activeIndex === index ? 'active' : ''}`}>
-                <button 
+                <button
                   className="faq-question"
                   onClick={() => toggleFAQ(index)}
                 >

@@ -4,38 +4,38 @@ import '../styles/About.css';
 const About = () => {
   const testimonials = [
     {
-      text: "Excel Institute completely transformed my preparation strategy. The faculty's personal attention and rigorous test series helped me secure my dream rank in NEET.",
-      name: "Aditya Verma",
-      outcome: "AIR 15, NEET 2023",
+      text: "Achievers Academy completely transformed my child's preparation strategy. The faculty's personal attention helped my son score 95% in his CBSE 10th boards.",
+      name: "Aditya Verma (Parent)",
+      outcome: "CBSE 10th - 95%",
       image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1974&auto=format&fit=crop"
     },
     {
-      text: "The programming bootcamp was intense, but exactly what I needed. I went from zero coding knowledge to placing at Amazon within 8 months.",
-      name: "Sneha Kapoor",
-      outcome: "SDE at Amazon",
+      text: "The small batch sizes and focus on concept clarity made a huge difference. Highly recommend Achievers Academy to all students and parents.",
+      name: "Sneha Kapoor (Parent)",
+      outcome: "State Board 12th Top Scorer",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop"
     },
     {
-      text: "I struggled with JEE Advanced physics until I joined Excel. Their unique conceptual approach makes even the toughest problems solvable.",
+      text: "I struggled with Mathematics until I joined here. Their unique teaching style makes even the toughest problems solvable, removing my fear completely.",
       name: "Rahul Desai",
-      outcome: "IIT Bombay, CS",
+      outcome: "Class 9 Student",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
     }
   ];
 
   const milestones = [
-    { year: "2010", text: "Founded with a vision to redefine competitive exam preparation." },
-    { year: "2015", text: "Produced our first Top 10 All India Rankers in Engineering and Medicine." },
-    { year: "2018", text: "Expanded into IT coding bootcamps and achieved 100% placement records." },
-    { year: "2023", text: "Crossed 50,000+ total students mentored with an industry-leading success rate." }
+    { year: "2010", text: "Founded with a vision to redefine after-school tuitions." },
+    { year: "2015", text: "Produced our first batch of School Toppers in CBSE and State Board." },
+    { year: "2018", text: "Expanded to higher secondary tuitions focusing on comprehensive board prep." },
+    { year: "2023", text: "Crossed 5,000+ total students mentored with a consistent record of academic improvement." }
   ];
 
   return (
     <div className="about-page">
       <div className="about-hero">
         <div className="about-hero-content">
-          <h1>Empowering Minds, Shaping Futures</h1>
-          <p>Excel Institute is a premier educational platform dedicated to helping ambitious students achieve their academic and professional dreams.</p>
+          <h1>Chennai's Most Trusted Tuition Centre</h1>
+          <p>Achievers Academy is dedicated to helping CBSE & State Board students achieve academic excellence through personalized attention.</p>
         </div>
       </div>
 
@@ -66,8 +66,8 @@ const About = () => {
 
       <section className="testimonials-section">
         <div className="testimonials-header">
-          <h2>Student Testimonials</h2>
-          <p>Hear from the students who chose Excel Institute and achieved their dreams.</p>
+          <h2>Parent & Student Testimonials</h2>
+          <p>Hear from the families who chose Achievers Academy and achieved their academic goals.</p>
         </div>
         <div className="testimonials-grid">
           {testimonials.map((test, index) => (

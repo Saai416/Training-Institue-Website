@@ -14,16 +14,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `Hi Excel Institute, I am ${formData.name}. I am interested in exploring the ${formData.course} course. My contact number is ${formData.phone}. Please connect with me!`;
-    const whatsappUrl = `https://wa.me/910000000000?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/0000000000?text=${encodeURIComponent("Hi, I saw Achievers Academy online. I want to know about classes.")}`;
     window.open(whatsappUrl, '_blank');
   };
 
   return (
     <div className="contact-page">
       <div className="contact-header">
-        <h1>Let's Connect and Build Your Career</h1>
-        <p>Whether you need career counseling or course details, our expert advisors are here to help.</p>
+        <h1>Contact Achievers Academy</h1>
+        <p>Reach out for enrollment, batch details, and fee structure.</p>
       </div>
 
       <div className="contact-container">
@@ -56,14 +55,15 @@ const Contact = () => {
                 />
               </div>
               <div className="form-group">
-                <label>Course Interest</label>
+                <label>Class / Subject Interest</label>
                 <select name="course" value={formData.course} onChange={handleChange} required>
-                  <option value="" disabled>Select a course</option>
-                  <option value="NEET">NEET Exellence</option>
-                  <option value="JEE">JEE Advanced</option>
-                  <option value="MERN Stack">Full Stack Web Dev</option>
-                  <option value="Data Science">Data Science & AI</option>
-                  <option value="Foundation">Foundation (Class 9-10)</option>
+                  <option value="" disabled>Select a class</option>
+                  <option value="Primary">LKG to 5th Standard</option>
+                  <option value="Middle">6th to 8th Standard</option>
+                  <option value="High School">9th & 10th Board</option>
+                  <option value="Higher Sec">11th & 12th Board</option>
+                  <option value="Maths Special">Maths Special Focus</option>
+                  <option value="Languages">Languages (English/Hindi)</option>
                 </select>
               </div>
               <button type="submit" className="btn btn-primary submit-btn">
@@ -75,18 +75,18 @@ const Contact = () => {
           {/* Info Section */}
           <div className="contact-info-section">
             <div className="info-card">
-              <h3>Visit Our Campus</h3>
+              <h3>Visit Our Centre</h3>
               <div className="info-item">
                 <span className="icon">📍</span>
-                <p>123 Excel Tower, Knowledge Park, Chennai, Tamil Nadu, India 600001</p>
+                <p>No 11, Murugappa St, above Saravana Store, Muthiyal Reddy Nagar, Vanuvampet, Madipakkam, Chennai, Tamil Nadu 600091</p>
               </div>
               <div className="info-item">
                 <span className="icon">📧</span>
-                <p>admissions@excelinstitute.com</p>
+                <p>info@achieversacademy.in</p>
               </div>
               <div className="info-item">
                 <span className="icon">📞</span>
-                <p>+91 00000 00000 (Toll Free)</p>
+                <p>+91 00000 00000</p>
               </div>
             </div>
 
@@ -100,7 +100,7 @@ const Contact = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Excel Institute Location"
+                title="Achievers Academy Location"
               ></iframe>
             </div>
           </div>

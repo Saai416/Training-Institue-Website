@@ -9,8 +9,8 @@ const Navigation = () => {
     <header className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/logo.png" alt="Excel Institute Logo" style={{ width: '40px', height: '40px', marginRight: '10px' }} />
-          EXCEL INSTITUTE
+          <img src="/logo.png" alt="Achievers Academy Logo" style={{ width: '40px', height: '40px', marginRight: '10px' }} />
+          ACHIEVERS ACADEMY
         </Link>
         <div className={`nav-menu ${menuOpen ? 'active' : ''}`}>
           <Link to="/" className="nav-link">Home</Link>
@@ -28,13 +28,13 @@ const Navigation = () => {
       </div>
       <div className="navbar-contact">
         <div className="contact-item">
-          <span>📧 info@excelinstitute.com</span>
+          <span>📧 info@achieversacademy.in</span>
         </div>
         <div className="contact-item">
-          <span>📍 Chennai, Tamil Nadu</span>
+          <span>📍 Madipakkam, Chennai</span>
         </div>
         <div className="contact-item">
-          <span>⏰ Mon-Sat: 8:00 AM - 8:00 PM</span>
+          <span>⏰ Mon-Sat: 4:00 PM - 9:00 PM</span>
         </div>
         <div className="contact-item">
           <span>📞 +91 00000 00000</span>

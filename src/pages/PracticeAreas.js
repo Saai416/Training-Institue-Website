@@ -4,48 +4,48 @@ import '../styles/PracticeAreas.css';
 const PracticeAreas = () => {
   const courses = [
     {
-      title: 'NEET Excellence Program',
-      description: 'Comprehensive 2-year classroom program for medical aspirants with intensive coaching and test series.',
-      badge: 'Bestseller',
-      icon: '🩺'
+      title: 'Pre-Primary & Primary',
+      description: 'Classes LKG to 5th. Building strong foundational skills in English, Maths, and Environmental Sciences.',
+      badge: 'Core',
+      icon: '🧒'
     },
     {
-      title: 'JEE Advanced Batch',
-      description: 'Rigorous training program designed for engineering aspirants focusing on advanced problem-solving.',
+      title: 'Middle School',
+      description: 'Classes 6th to 8th. Focus on concept clarity and developing analytical skills across all main subjects.',
+      badge: 'Popular',
+      icon: '📚'
+    },
+    {
+      title: 'High School (Board Prep)',
+      description: 'Classes 9th & 10th. Intensive coaching for CBSE and State Board examinations to ensure top scores.',
       badge: 'Top Rated',
+      icon: '🎓'
+    },
+    {
+      title: 'Higher Secondary',
+      description: 'Classes 11th & 12th. Specialized board classes for Maths, Physics, Chemistry, Biology & Commerce streams.',
+      badge: 'Expert',
+      icon: '🔬'
+    },
+    {
+      title: 'Maths Special',
+      description: 'Targeted practice and advanced problem-solving techniques specifically designed to remove the fear of Maths.',
+      badge: 'Focused',
       icon: '📐'
     },
     {
-      title: 'Full-Stack Web Development',
-      description: 'Master MERN stack with real-world projects and build a competitive portfolio for tech placements.',
-      badge: 'New',
-      icon: '💻'
-    },
-    {
-      title: 'Data Science & Machine Learning',
-      description: 'Learn Python, AI modeling, and big data to land high-paying roles in the analytics industry.',
-      badge: 'Trending',
-      icon: '📊'
-    },
-    {
-      title: 'Foundation Course (Class 9 & 10)',
-      description: 'Early preparation for competitive exams focusing on building strong fundamentals in Maths and Science.',
-      badge: 'Core',
-      icon: '🏫'
-    },
-    {
-      title: 'Aptitude & Logical Reasoning',
-      description: 'Essential training for company placements, entrance tests, and government exams.',
-      badge: 'Placement',
-      icon: '💡'
+      title: 'Languages',
+      description: 'Expert coaching in English and Hindi to improve fluency, comprehensive reading, and creative writing.',
+      badge: 'Essential',
+      icon: '✍️'
     }
   ];
 
   return (
     <div className="courses-page">
       <div className="courses-header">
-        <h1>Transformative Training Programs</h1>
-        <p>Explore our wide range of meticulously crafted courses designed to propel your career and academic journey.</p>
+        <h1>CBSE & State Board Tuitions</h1>
+        <p>Explore our meticulous tuition classes designed for LKG to 12th standard, covering key subjects like Maths, Science, English, and Hindi.</p>
       </div>
 
       <div className="courses-container">
@@ -66,9 +66,9 @@ const PracticeAreas = () => {
       </div>
 
       <div className="courses-footer">
-        <h2>Not sure which course is right for you?</h2>
-        <p>Talk to our expert counselors today and get personalized guidance.</p>
-        <a href="https://wa.me/910000000000" className="btn btn-primary primary-cta" target="_blank" rel="noreferrer">Request Career Counseling</a>
+        <h2>Not sure which program fits your child?</h2>
+        <p>Talk to our expert teachers today and get personalized guidance.</p>
+        <a href="https://wa.me/0000000000?text=Hi%2C%20I%20saw%20Achievers%20Academy%20online.%20I%20want%20to%20know%20about%20classes." className="btn btn-primary primary-cta" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
       </div>
     </div>
   );
